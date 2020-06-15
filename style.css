@@ -35,7 +35,6 @@ body {
 
 .home-side-btn {
     width: 10%;
-    writing-mode: sideways-lr;
     text-align: center;
     padding: 50px;
     font-family: 'Chathura', sans-serif;
@@ -44,7 +43,27 @@ body {
     color: rgba(0, 0, 0, 0.308);
 }
 
+#works-btn, #about-btn {
+    writing-mode: sideways-rl;
+}
+
 .home-side-btn:hover {
     background-color: black;
     color: white;
+}
+
+#footer > a, a:hover, a:focus, a:active, a:visited {
+    text-decoration: none;
+    color: black !important;
+    outline: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.308) !important;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    padding-top: 15px;
 }

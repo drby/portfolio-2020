@@ -4,5 +4,23 @@
         justify-content: center;
     }
 
+    #center-piece {
+        flex-direction: column;
+    }
+
+    #about-btn, #works-btn {
+        writing-mode: horizontal-tb !important;
+    }
+
+    .home-side-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60% !important;
+        height: auto;
+        align-items: center !important;
+        height: 20px;
+        margin-top: 50px;
+    }
 
   }
