@@ -43,9 +43,9 @@ body {
     color: rgba(0, 0, 0, 0.308);
 }
 
-#works-btn, #about-btn {
+/* #works-btn, #about-btn {
     writing-mode: sideways-rl;
-}
+} */
 
 .home-side-btn:hover {
     background-color: black;
