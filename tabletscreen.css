@@ -1,32 +1,4 @@
-@media (max-width: 450px) {
-    #header {
-        display: flex;
-        justify-content: center;
-    }
-
-    #title {
-        transform: none !important;
-    }
-
-    #center-piece {
-        flex-direction: column;
-    }
-
-    #about-btn, #works-btn {
-        writing-mode: horizontal-tb !important;
-    }
-
-    .home-side-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60% !important;
-        height: auto;
-        align-items: center !important;
-        height: 20px;
-        margin-top: 50px;
-    }
-
+@media (max-width:800px) {
     .about-column-1 {
         grid-column-start: 3 !important;
         grid-column-end: 4 !important;
@@ -47,5 +19,4 @@
         grid-row-start: 3 !important;
         grid-row-end: 4 !important;
     }
-
   }

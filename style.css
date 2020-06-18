@@ -77,13 +77,22 @@ ul {
     padding-top: 15px;
 }
 
-/* ABOUT */
+
+
+/* ABOUT PAGE */
+
+
+
+#about-title {
+    margin-top: 15%;
+    font-family: 'Reenie Beanie', cursive;
+}
 
 .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1px 1px;
+    gap: 10px 10px;
 }
 
 .about-column-1 {
@@ -105,4 +114,10 @@ ul {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.about-column-3, .about-column-2, .about-column-1 {
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
 }
