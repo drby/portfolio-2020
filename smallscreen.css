@@ -4,6 +4,10 @@
         justify-content: center;
     }
 
+    #title {
+        transform: none !important;
+    }
+
     #center-piece {
         flex-direction: column;
     }

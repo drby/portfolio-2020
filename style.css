@@ -1,7 +1,7 @@
 body {
     background: url("images/background-white.png") top right no-repeat;
     background-size: auto;
-    background-attachment:fixed;
+    /* background-attachment:fixed; */
     text-align: center;
 }
 
@@ -12,10 +12,11 @@ body {
 
 #title {
     font-family: 'Reenie Beanie', cursive;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-left: 25px;
     margin-bottom: 15px;
     font-size: 2rem;
+    transform: rotate(-20deg);
 }
 
 #center-piece {
