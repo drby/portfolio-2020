@@ -49,8 +49,12 @@ body {
     outline: 0;
 }
 
-#works-btn, #about-btn {
+#works-btn {
     writing-mode: vertical-rl;
+}
+
+#about-btn {
+    writing-mode: vertical-lr;
 }
 
 a:hover {
@@ -84,7 +88,7 @@ ul {
 
 
 #about-title {
-    margin-top: 15%;
+    margin-top: 6%;
     font-family: 'Reenie Beanie', cursive;
 }
 
