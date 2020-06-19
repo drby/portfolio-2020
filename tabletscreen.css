@@ -1,4 +1,10 @@
 @media (max-width:800px) {
+
+    #center-piece {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
     .about-column-1 {
         grid-column-start: 3 !important;
         grid-column-end: 4 !important;
