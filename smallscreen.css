@@ -10,6 +10,8 @@
 
     #center-piece {
         flex-direction: column;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     #about-btn, #works-btn {
