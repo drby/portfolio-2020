@@ -99,7 +99,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 40px;
 }
 
 .about-column-1 {
@@ -123,5 +123,12 @@ a:hover {
     grid-row-end: 3;
 }
 
-.about-column-3, .about-column-2, .about-column-1 {
+.about-card-title {
+    font-family: 'VT323', monospace;
+    text-align: left;
+}
+
+.about-card-content {
+    font-family: 'Cutive Mono', monospace;
+    text-align: left;
 }
