@@ -131,4 +131,23 @@ a:hover {
 .about-card-content {
     font-family: 'Cutive Mono', monospace;
     text-align: left;
+    margin: 0;
+}
+
+#download-cv-icon {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.479) !important;
+    outline: none;
+    outline: 0;
+}
+
+#download-cv-icon:hover {
+    /* color: rgba(0, 0, 0, 0.308) !important; */
+}
+
+#download-cv-icon, #download-cv-icon:hover, #download-cv-icon:focus, #download-cv-icon:active, #download-cv-icon:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.404) !important;
+    outline: none;
+    outline: 0;
 }
