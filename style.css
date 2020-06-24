@@ -151,3 +151,27 @@ a:hover {
     outline: none;
     outline: 0;
 }
+
+.skills-subtitle {
+    font-family: 'Cutive Mono', monospace;
+    text-align: left;
+    margin: 0;
+    display: flex;
+}
+
+.technology-card {
+    font-family: 'Cutive Mono', monospace;
+    text-align: left;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: inline-flex;
+}
+
+#dev-icon {
+    font-size: 15px;
+    line-height: inherit;
+    margin-left: 3px;
+    margin-right: 3px;
+}
