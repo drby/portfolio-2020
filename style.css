@@ -101,7 +101,7 @@ a:hover {
     display: grid;
     grid-template-columns: 12.5% 25% 25% 25% 12.5%;
     /* grid-template-rows: 1fr 1fr 1fr; */
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .about-column-1 {
@@ -134,6 +134,12 @@ a:hover {
     font-family: 'Cutive Mono', monospace;
     text-align: left;
     margin: 0;
+}
+
+#my-mail {
+    font-style: italic !important;
+    /* color: #212529 !important; */
+    font-weight: bold !important;
 }
 
 #download-cv-icon {
