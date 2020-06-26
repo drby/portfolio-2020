@@ -1,6 +1,7 @@
 body {
-    background: url("images/background-white.png") top right no-repeat;
-    background-size: auto;
+    /* background: url("images/background-white.png") top right no-repeat; */
+    background: url("images/pattern.jpeg") top right no-repeat;
+    background-size: cover;
     /* background-attachment:fixed; */
     text-align: center;
 }
