@@ -222,3 +222,36 @@ a:hover {
     /* grid-row-start: 1;
     grid-row-end: 2; */
 }
+
+.works-column-1 .card h5, .works-column-2 .card h5, .works-column-3 .card h5 {
+    font-family: 'VT323', monospace !important;
+}
+
+.works-column-1, .works-column-2, .works-column-3 {
+    text-align: left;
+}
+
+.card {
+    background: transparent;
+    border: transparent;
+}
+
+.card-body {
+    padding-left: 0;
+}
+
+.card-img-top {
+    width: 240px;
+    height: 180px;
+}
+
+.card .icon-container {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.74);
+    border: 1px solid black;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
